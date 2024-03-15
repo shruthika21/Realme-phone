@@ -1,0 +1,209 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  color: #000;
+}
+
+.navbar-buy {
+  background-color: #007bff;
+}
+
+/* Home Section */
+#home-section {
+  padding-top: 50px;
+  text-align: center;
+  background-size: contain; /* Adjusts the background image to fit within the container */
+  background-position: center; /* Centers the background image */
+}
+
+/* About Section */
+#about-section {
+  padding-top: 100px;
+  background-size: contain; /* Adjusts the background image to fit within the container */
+  background-position: center; /* Centers the background image */
+}
+
+/* Product section styles */
+.product {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.product h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box .price {
+    font-size: 20px;
+    color: #333;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Feature Section */
+#feature-section {
+  padding: 100px 0;
+}
+
+.box {
+  margin-bottom: 30px;
+}
+
+/* Product Section */
+.product {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Section */
+.contact {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.inputBox {
+  max-width: 600px;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-container {
+  text-align: center;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 100px 0;
+}
+
+.accordion-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.accordion.active .accordion-content {
+  display: block;
+}s
